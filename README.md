@@ -92,7 +92,7 @@ Despues de correr el comando de manera exitosa debera aparecer el siguiente mens
 
 3. Seleccionar tunel creado (deberia estar corriendo y marcando como healthy)
 
-![tunel](img/tunel.png)
+![Tunel](img/Tunel.png)
 
 ## Errores
 ### Error 1033
