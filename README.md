@@ -28,7 +28,9 @@ Este proyecto detalla la creacion de un tunel estatico para la exposición segur
 ![crear tunel](img/crear_tunel.png)
 ![crear tunel2](img/crear_tunel2.png)<br>
 
-4. En **Public Hostname**, configure su dominio/subdominio apuntando al servicio local:
+3. Nombrar tunel.
 
+4. Seleccionar el sistema operativo del servidor (windows 64 bit en este caso)
+![Sistema operativo](img/Sistema_operativo.png)<br>
 
 ## Solución de Problemas (Troubleshooting)
