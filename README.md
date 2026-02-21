@@ -41,6 +41,8 @@ Este proyecto detalla la creacion de un tunel estatico para la exposición segur
 Despues de correr el comando de manera exitosa debera aparecer el siguiente mensaje:
 ![Tunnel_connected](img/Tunnel_connected.png)<br>
 
+### Paso 2: Agregar dominio a cloudflare
+
 ## Errores
 
 https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-amd64.msi
