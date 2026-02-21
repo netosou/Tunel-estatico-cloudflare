@@ -80,6 +80,10 @@ Despues de correr el comando de manera exitosa debera aparecer el siguiente mens
 
 ![Nameservers4](img/Nameservers4.png)<br>
 
+13. Verificar que la propagacion haya terminado
+
+![Nameservers5](img/Nameservers5.png)<br>
+
 ## Errores
 ### Error 1033
 ![Error1033](img/Error1033.png)<br>
