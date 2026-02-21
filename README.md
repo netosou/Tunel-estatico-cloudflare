@@ -94,6 +94,19 @@ Despues de correr el comando de manera exitosa debera aparecer el siguiente mens
 
 ![Tunel](img/Tunel.png)
 
+4. Seleccionar **Add route**
+
+![ruta](img/Ruta.png)
+
+5. Seleccionar **Published application**
+
+![ruta2](img/Ruta2.png)
+
+6. Escribir http://localhost:3000 en el service URL y dejar lo demas por defecto
+
+![ruta3](img/Ruta3.png)
+
+
 ## Errores
 ### Error 1033
 ![Error1033](img/Error1033.png)<br>
