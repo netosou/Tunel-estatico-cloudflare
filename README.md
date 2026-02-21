@@ -88,6 +88,8 @@ Despues de correr el comando de manera exitosa debera aparecer el siguiente mens
 1. Acceder a [Dash de Cloudflare](https://dash.cloudflare.com/).
 2. Navegue a **Networking > Tunnels**.
 
+![crear tunel](img/crear_tunel.png)
+
 ## Errores
 ### Error 1033
 ![Error1033](img/Error1033.png)<br>
