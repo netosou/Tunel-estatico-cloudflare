@@ -84,6 +84,10 @@ Despues de correr el comando de manera exitosa debera aparecer el siguiente mens
 
 ![Nameservers5](img/Nameservers5.png)<br>
 
+### Paso 3: Configurar ruta hacia el servidor
+1. Acceder a [Dash de Cloudflare](https://dash.cloudflare.com/).
+2. Navegue a **Networking > Tunnels**.
+
 ## Errores
 ### Error 1033
 ![Error1033](img/Error1033.png)<br>
