@@ -32,94 +32,96 @@ Este proyecto detalla la creacion de un tunel estatico para la exposición segur
 ![Nombrar tunel](img/Nombrar_tunel.png)
 
 
-4. Seleccionar el sistema operativo del servidor (windows 64 bit en este caso)
+4. Seleccionar el sistema operativo del servidor (windows 64 bit en este caso).
 ![Sistema operativo](img/Sistema_operativo.png)<br>
 
-5. Descargar y correr el ejecuble con el link que te da la pagina(cloudflared-windows-amd64.msi en este caso)
+5. Descargar y correr el ejecuble con el link que te da la pagina(cloudflared-windows-amd64.msi en este caso).
 
-6. Abrir la terminal como administrador y correr el comando que te genera la pagina
+6. Abrir la terminal como administrador y correr el comando que te genera la pagina.
 ![Comando generado](img/Comando_generado.png)<br>
 Despues de correr el comando de manera exitosa debera aparecer el siguiente mensaje:
 ![Tunnel_connected](img/Tunnel_connected.png)<br>
 
 ### Paso 2: Agregar dominio a cloudflare
 1. Acceder a [Dash de Cloudflare](https://dash.cloudflare.com/).
-2. Ingresar a la opcion de domains del panel izquierdo
+2. Ingresar a la opcion de domains del panel izquierdo.
 
 ![Domains](img/Domains.png)<br>
-3. Seleccionar Onboard a domain
+3. Seleccionar Onboard a domain.
 
 ![Onboard](img/Onboard.png)<br>
-4. Ingresar el dominio y dejar las opciones por defecto
+4. Ingresar el dominio y dejar las opciones por defecto.
 
 ![Domain](img/Domain.png)<br>
 5. Seleccionar plan Free
 
 ![Free](img/Free.png)<br>
 
-6. Verificar que el dominio aparezca en el registro DNS y agregarlo manualmente en caso de que no aparezca
+6. Verificar que el dominio aparezca en el registro DNS y agregarlo manualmente en caso de que no aparezca.
 ![DNS](img/DNS.png)<br>
 
-7. Seleccionar continue to activation
+7. Seleccionar continue to activation.
 
-8. Copiar los nameservers generados
+8. Copiar los nameservers generados.
 
 ![Nameservers](img/Nameservers.png)<br>
 
 9. Acceder a tu provedor de Dominio
-10. Navegar a **DNS > Servidores de nombre > cambiar servidores de nombre**
+10. Navegar a **DNS > Servidores de nombre > cambiar servidores de nombre**.
 
 ![Nameservers2](img/Nameservers2.jpeg)<br>
 
-11. Pegar los Nameservers previamente copiados y guardar
+11. Pegar los Nameservers previamente copiados y guardar.
 
 ![Nameservers3](img/Nameservers3.jpeg)<br>
 
-12. Esperar a que se haga la propagacion de DNS
+12. Esperar a que se haga la propagacion de DNS.
 
 ![Nameservers4](img/Nameservers4.png)<br>
 
-13. Verificar que la propagacion haya terminado
+13. Verificar que la propagacion haya terminado.
 
 ![Nameservers5](img/Nameservers5.png)<br>
 
-### Paso 3: Configurar ruta hacia el servidor
+### Paso 3: Configurar ruta hacia el servidor.
 1. Acceder a [Dash de Cloudflare](https://dash.cloudflare.com/).
 2. Navegue a **Networking > Tunnels**.
 
 ![crear tunel](img/crear_tunel.png)
 
-3. Seleccionar tunel creado (deberia estar corriendo y marcando como healthy)
+3. Seleccionar tunel creado (deberia estar corriendo y marcando como healthy).
 
 ![Tunel](img/Tunel.png)
 
-4. Seleccionar **Add route**
+4. Seleccionar **Add route**.
 
 ![ruta](img/Ruta.png)
 
-5. Seleccionar **Published application**
+5. Seleccionar **Published application**.
 
 ![ruta2](img/Ruta2.png)
 
-6. Escribir http://localhost:3000 en el service URL y dejar lo demas por defecto
+6. Escribir http://localhost:3000 en el service URL y dejar lo demas por defecto.
 
 ![ruta3](img/Ruta3.png)
 
 ![ruta4](img/Ruta4.png)
 
 
-7. Esperar unos segundos y acceder atraves del dominio para comprobar conectividad a traves del tunel
+7. Esperar unos segundos y acceder atraves del dominio para comprobar conectividad a traves del tunel.
 
 
 ## Errores
-### Error 1033
+### Error 1033.
 ![Error1033](img/Error1033.png)<br>
-Aparece cuando el servidor tiene un tunel corriendo diferente al que esta asignado al dominio
+Aparece cuando el servidor no esta corriendo el servicio clouflared generado para el tunel.
 
 Solucion:
-Correr el comando `cloudflared service uninstall y posteriormente correr el comamdo service install correspondiente 
+Correr el comando service install correspondiente que se encuentra en **Networking > Tunnels > (Nombre de tu tunel)**.
 
 ### Error 522 y 502
 
 ![Error502](img/Error502.png)<br>
+Estos errores suelen ocurrir cuando el servidor no esta corriendo o cuando se configura mal el Service URL(http://localhost:3000) en la ruta del tunel.
 
+Posibles soluciones: Verificar que el servidor este corriendo, y que el service URL tenga el protocolo y puertos correctos (http://localhost:3000 en este caso). 
