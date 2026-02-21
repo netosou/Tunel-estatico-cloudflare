@@ -45,4 +45,3 @@ Despues de correr el comando de manera exitosa debera aparecer el siguiente mens
 
 ## Errores
 
-https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-amd64.msi
