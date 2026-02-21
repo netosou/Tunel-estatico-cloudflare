@@ -3,7 +3,7 @@ Este proyecto detalla la creacion de un tunel estatico para la exposición segur
 
 
 ##  Índice
-2. [ Requisitos Previos](#️-requisitos-previos)
+2. [ Requisitos Previos](#️requisitos-previos)
 3. [ Instalación del Servicio](#️-instalación-del-servicio)
 4. [ Configuración del Hostname](#️-configuración-del-hostname)
 7. [ Solución de Problemas (Troubleshooting)](#-solución-de-problemas-troubleshooting)
