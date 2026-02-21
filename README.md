@@ -64,9 +64,11 @@ Despues de correr el comando de manera exitosa debera aparecer el siguiente mens
 7. Seleccionar continue to activation
 
 8. Copiar los nameservers generados
+
 ![Nameservers](img/Nameservers.png)<br>
 
-9. 
+9. Acceder a tu provedor de Dominio
+10. Navegar a **DNS > Servidore de nombre > cambiar servidores de nombre**
 ## Errores
 ### Error 1033
 ![Error1033](img/Error1033.png)<br>
