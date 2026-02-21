@@ -35,7 +35,7 @@ Este proyecto detalla la creacion de un tunel estatico para la exposición segur
 
 4. Seleccionar el sistema operativo del servidor (windows 64 bit en este caso)
 ![Sistema operativo](img/Sistema_operativo.png)<br>
-5. Descargar y correr el ejecuble con el link que te da la pagina
+5. Descargar y correr el ejecuble con el link que te da la pagina(cloudflared-windows-amd64.msi este caso)
 6. Abrir la terminal como administrador y correr el comando que te genera la pagina
 ![Comando generado](img/Comando_generado.png)<br>
 
