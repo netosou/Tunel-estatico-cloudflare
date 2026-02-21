@@ -44,7 +44,7 @@ Despues de correr el comando de manera exitosa debera aparecer el siguiente mens
 ### Paso 2: Agregar dominio a cloudflare
 
 ## Errores
-Error 1033
+###Error 1033
 ![Error1033](img/Error1033.png)<br>
 Aparece cuando el servidor tiene un tunel corriendo diferente al que esta asignado al dominio
 Solucion:
