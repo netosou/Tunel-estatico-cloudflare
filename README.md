@@ -44,4 +44,5 @@ Despues de correr el comando de manera exitosa debera aparecer el siguiente mens
 ### Paso 2: Agregar dominio a cloudflare
 
 ## Errores
-
+Error 1033
+![Error1033](img/Error1033.png)<br>
