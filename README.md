@@ -71,7 +71,9 @@ Despues de correr el comando de manera exitosa debera aparecer el siguiente mens
 10. Navegar a **DNS > Servidores de nombre > cambiar servidores de nombre** 
 ![Nameservers2](img/Nameservers2.jpeg)<br>
 
-11. 
+11. Pegar los Nameservers previamente copiados 
+
+![Nameservers2](img/Nameservers2.jpeg)<br>
 
 
 ## Errores
