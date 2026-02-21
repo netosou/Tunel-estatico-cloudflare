@@ -90,6 +90,10 @@ Despues de correr el comando de manera exitosa debera aparecer el siguiente mens
 
 ![crear tunel](img/crear_tunel.png)
 
+3. Seleccionar tunel creado (deberia estar corriendo y marcando como healthy)
+
+![tunel](img/tunel.png)
+
 ## Errores
 ### Error 1033
 ![Error1033](img/Error1033.png)<br>
