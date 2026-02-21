@@ -68,7 +68,7 @@ Despues de correr el comando de manera exitosa debera aparecer el siguiente mens
 ![Nameservers](img/Nameservers.png)<br>
 
 9. Acceder a tu provedor de Dominio
-10. Navegar a **DNS > Servidore de nombre > cambiar servidores de nombre**
+10. Navegar a **DNS > Servidores de nombre > cambiar servidores de nombre**
 ## Errores
 ### Error 1033
 ![Error1033](img/Error1033.png)<br>
