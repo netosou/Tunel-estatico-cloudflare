@@ -3,10 +3,10 @@ Este proyecto detalla la creacion de un tunel estatico para la exposición segur
 
 
 ##  Índice
-2. [Requisitos Previos](#️requisitos-previos)
-3. [Instalación del Servicio](#️instalación-del-servicio)
-4. [Configuración del Hostname](#️configuración-del-hostname)
-7. [Errores](#errores)
+1. [Requisitos Previos](#️requisitos-previos)
+2. [Instalación del Servicio](#️instalación-del-servicio)
+3. [Configuración del Hostname](#️configuración-del-hostname)
+4. [Errores](#errores)
 
 
 ---
@@ -42,12 +42,15 @@ Despues de correr el comando de manera exitosa debera aparecer el siguiente mens
 ![Tunnel_connected](img/Tunnel_connected.png)<br>
 
 ### Paso 2: Agregar dominio a cloudflare
-
+1. Acceder a [Dash de Cloudflare](https://dash.cloudflare.com/).
+2. Ingresar a la opcion de domains del panel izquierdo
+![Domains](img/Domains.png)<br>
+3. Seleccionar Onboard a domain
+![Onboard](img/Onboard.png)<br>
+4. Ingresar el dominio y dejar las opciones por defecto
+![Domain](img/Domain.png)<br>
+5. Seleccionar plan Free
+![Free](img/Free.png)<br>
+6. 
 ## Errores
-### Error 1033
-![Error1033](img/Error1033.png)<br>
-Aparece cuando el servidor tiene un tunel corriendo diferente al que esta asignado al dominio
-
-Solucion:
-
-Correr el comando `cloudflared service uninstall y posteriormente correr el comamdo service install correspondiente
+Error 
