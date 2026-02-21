@@ -59,8 +59,12 @@ Despues de correr el comando de manera exitosa debera aparecer el siguiente mens
 ![Free](img/Free.png)<br>
 
 6. Verificar que el dominio aparezca en el registro DNS y agregarlo manualmente en caso de que no aparezca
-![DNS](img/DNS.png)<br>
+7. Seleccionar continue to activation
 
+8. Copiar los nameservers generados
+![Nameservers](img/Nameservers.png)<br>
+
+9. 
 ## Errores
 ### Error 1033
 ![Error1033](img/Error1033.png)<br>
