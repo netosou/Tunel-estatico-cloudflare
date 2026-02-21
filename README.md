@@ -22,6 +22,6 @@ Este proyecto detalla la creacion de un tunel estatico para la exposición segur
 
 ## 🛠️ Instalación del Servicio
 ### Paso 1: Configuración en el Dashboard de Cloudflare
-1. crear cuenta en [Cloudflare Zero Trust](https://dash.cloudflare.com/).
+1. crear cuenta en [Dash de Cloudflare](https://dash.cloudflare.com/).
 2. Navegue a **Networks > Tunnels** y cree un nuevo túnel (Select Cloudflared).
 3. En **Public Hostname**, configure su dominio/subdominio apuntando al servicio local:
