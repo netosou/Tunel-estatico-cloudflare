@@ -76,6 +76,9 @@ Despues de correr el comando de manera exitosa debera aparecer el siguiente mens
 
 ![Nameservers3](img/Nameservers3.jpeg)<br>
 
+12. Esperar a que se haga la propagacion de DNS
+
+![Nameservers4](img/Nameservers4.png)<br>
 
 ## Errores
 ### Error 1033
