@@ -29,6 +29,8 @@ Este proyecto detalla la creacion de un tunel estatico para la exposición segur
 ![crear tunel2](img/crear_tunel2.png)<br>
 
 3. Nombrar tunel.
+[Nombrar tunel](img/Nombrar_tunel.png)
+
 
 4. Seleccionar el sistema operativo del servidor (windows 64 bit en este caso)
 ![Sistema operativo](img/Sistema_operativo.png)<br>
