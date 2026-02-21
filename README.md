@@ -106,6 +106,11 @@ Despues de correr el comando de manera exitosa debera aparecer el siguiente mens
 
 ![ruta3](img/Ruta3.png)
 
+![ruta4](img/Ruta4.png)
+
+
+7. Esperar unos segundos y acceder atraves del dominio para comprobar conectividad a traves del tunel
+
 
 ## Errores
 ### Error 1033
@@ -113,5 +118,9 @@ Despues de correr el comando de manera exitosa debera aparecer el siguiente mens
 Aparece cuando el servidor tiene un tunel corriendo diferente al que esta asignado al dominio
 
 Solucion:
-
 Correr el comando `cloudflared service uninstall y posteriormente correr el comamdo service install correspondiente 
+
+### Error 522 y 502
+
+![Error502](img/Error502.png)<br>
+
