@@ -38,7 +38,8 @@ Este proyecto detalla la creacion de un tunel estatico para la exposición segur
 5. Descargar y correr el ejecuble con el link que te da la pagina(cloudflared-windows-amd64.msi en este caso)
 6. Abrir la terminal como administrador y correr el comando que te genera la pagina
 ![Comando generado](img/Comando_generado.png)<br>
-
+Despues de correr el comando de manera exitosa debera aparecer el siguiente mensaje:
+![Tunnel_connected](img/Tunnel_connected.png)<br>
 
 ## Errores
 
