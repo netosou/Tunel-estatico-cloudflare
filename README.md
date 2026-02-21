@@ -35,7 +35,9 @@ Este proyecto detalla la creacion de un tunel estatico para la exposición segur
 
 4. Seleccionar el sistema operativo del servidor (windows 64 bit en este caso)
 ![Sistema operativo](img/Sistema_operativo.png)<br>
+
 5. Descargar y correr el ejecuble con el link que te da la pagina(cloudflared-windows-amd64.msi en este caso)
+
 6. Abrir la terminal como administrador y correr el comando que te genera la pagina
 ![Comando generado](img/Comando_generado.png)<br>
 Despues de correr el comando de manera exitosa debera aparecer el siguiente mensaje:
@@ -44,13 +46,18 @@ Despues de correr el comando de manera exitosa debera aparecer el siguiente mens
 ### Paso 2: Agregar dominio a cloudflare
 1. Acceder a [Dash de Cloudflare](https://dash.cloudflare.com/).
 2. Ingresar a la opcion de domains del panel izquierdo
+
 ![Domains](img/Domains.png)<br>
 3. Seleccionar Onboard a domain
+
 ![Onboard](img/Onboard.png)<br>
 4. Ingresar el dominio y dejar las opciones por defecto
+
 ![Domain](img/Domain.png)<br>
 5. Seleccionar plan Free
+
 ![Free](img/Free.png)<br>
+
 6. 
 ## Errores
 ### Error 1033
