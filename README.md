@@ -45,7 +45,7 @@ Despues de correr el comando de manera exitosa debera aparecer el siguiente mens
 
 ## Errores
 Error 1033
-![Error1033](img/Error 1033.png)<br>
+![Error1033](img/Error1033.png)<br>
 Aparece cuando el servidor tiene un tunel corriendo diferente al que esta asignado al dominio
 Solucion:
 Correr el comando `cloudflared service uninstall y posteriormente correr el comamdo service install correspondiente
